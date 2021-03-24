@@ -4,7 +4,7 @@ const fs = require("fs");
 
 // your application token. To get an application token, register at MYOCR.NET
 // Note, you cannot use this example token yourself. 
-const app_token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImppbmtvbzJAZ21haWwuY29tIiwiYXBwX25hbWUiOiJNeSBBcHAgMiIsImlhdCI6MTYxNjE3NDE5N30.hrsu1QOLO5yLiYQ_F5LiLqvZVRKuR_y__S3AkGyos-I';
+const app_token = {{ your app token goes here }};
 
 // api end point
 const api_url = "http://localhost:3333/api/v1/ocr";
