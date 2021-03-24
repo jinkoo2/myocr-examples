@@ -1,4 +1,4 @@
-# MyOCR client code examples
+# MyOCR client sample codes
 This is a set of code examples to use MyOCR web api. After cloning this to your local drive, run the following commands to run the sample code.
 
 ## node js / base64 encoding / axio
