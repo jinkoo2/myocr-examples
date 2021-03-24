@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Run OCR</title>
+  <script src="index.js"></script>
+</head>
+
+<body>
+  <form enctype="multipart/form-data" method="post" name="myform" id="myform">
+    <!-- IMAGE -->
+    <div>
+      <label>File:</label>
+      <input type="file" name="img_data" id="img_data" required />
+    </div>
+
+    <!-- LANGUAGE -->
+    <label for="lang">Language:</label>
+    <select id="lang" name="lang">
+      <option value="eng">English</option>
+    </select>
+
+    <!-- SUBMIT -->
+    <div>
+      <input type="submit" value="Run OCR!" />
+    </div>
+
+  </form>
+  <div>TEXT</div>
+  <div id="output_text"></div>
+  <div>JSON</div>
+  <div id="output_json"></div>
+
+</body>
+
+</html>

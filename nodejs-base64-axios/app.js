@@ -2,15 +2,14 @@ const axios = require("axios");
 const path = require("path");
 const fs = require("fs");
 
-// your application token. To get an application token, register at MYOCR.NET
-// Note, you cannot use this example token yourself. 
-const app_token = {{ your app token goes here }};
+// your application token. 
+//const app_token = {{ your app token goes here }};
 
 // api end point
 const api_url = "http://localhost:3333/api/v1/ocr";
 
 // image file path
-const img_file = path.join(__dirname, "./phototest.tif");
+const img_file = path.join(__dirname, "../images/test.tif");
 
 // read input file
 let img_base64;
