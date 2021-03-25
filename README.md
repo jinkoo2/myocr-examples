@@ -6,8 +6,9 @@ The sub-folder nodejs-base64-axios has a sample code to submit an OCR request us
 
 ```
 >> cd nodejs-base64-axios
+# Open app.js and replace {{your app token}} with your own app token.
 >> npm install
->> node app.js (before running this line, replace {{your app token}} with your app token.)
+>> node app.js
 ```
 
 ## node js / formdata
@@ -15,8 +16,9 @@ The sub-folder nodejs-formdata has a sample code to submit an OCR request using 
 
 ```
 >> cd nodejs-formdata
+# Open app.js and replace {{your app token}} with your own app token.
 >> npm install
->> node app.js (before running this line, replace {{your app token}} with your app token.)
+>> node app.js 
 ```
 
 ## html / javascript
@@ -25,11 +27,12 @@ The three files (index.html, index.js, index.css) are the sample code files. Ple
 To run the express server, run the following commands
 ```
 >> cd html-javascript
+# Open index.js and replace {{your app token}} with your own app token.
 >> npm install 
->> node server.js (before running this line, replace {{your app token}} with your app token.)
+>> node server.js 
 ```
 
-Then open your web brower and go to http://localhost:3000. Then, select a image file with texts, and select the language, and click the OCR button. 
+Then open your web brower and go to http://localhost:3000. On the page, select a image file, select the language, and click the OCR button. 
 
 
 
